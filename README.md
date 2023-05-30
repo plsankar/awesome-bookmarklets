@@ -8,7 +8,14 @@ javascript:(function(){window.location.href=`https://www.whois.com/whois/${windo
 ```
 ## Misc
 
-### Google Fonts select all styles
+### Google Fonts Select All Styles
 ```js
 javascript:(function(){document.querySelectorAll('.selection-toggle-button').forEach(e => e.click())})();
+```
+
+## Web Dev
+
+### Scroll 100Vh
+```js
+javascript:(function(){window.scrollTo(0, window.innerHeight + document.documentElement.scrollTop)})();
 ```
