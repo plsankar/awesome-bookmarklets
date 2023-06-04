@@ -19,3 +19,8 @@ javascript:(function(){document.querySelectorAll('.selection-toggle-button').for
 ```js
 javascript:(function(){window.scrollTo(0, window.innerHeight + document.documentElement.scrollTop)})();
 ```
+
+### View Formatted JSON In Browser
+```js
+javascript:(function(){var element=document.querySelector("pre"); var obj=JSON.parse(element.innerText); element.innerHTML=JSON.stringify(obj,undefined,2);})();
+```
