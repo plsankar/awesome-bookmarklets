@@ -6,6 +6,11 @@
 ```js
 javascript:(function(){window.location.href=`https://www.whois.com/whois/${window.location.hostname}`})();
 ```
+
+### SimilarWeb
+```js
+javascript:(function(){window.location.href=`https://www.similarweb.com/website/${window.location.hostname}/`})();
+```
 ## Misc
 
 ### Google Fonts Select All Styles
