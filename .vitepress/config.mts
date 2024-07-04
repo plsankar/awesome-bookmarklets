@@ -17,4 +17,5 @@ export default defineConfig({
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/plsankar/awesome-bookmarklets' }],
   },
+  srcExclude: ['README.md'],
 });
