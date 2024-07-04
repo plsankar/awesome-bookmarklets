@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/awesome-bookmarklets/',
   title: 'Awesome Bookmarklets',
   description:
     'Awesome Bookmarklets, a curated collection of powerful and handy bookmarklets to enhance your browsing experience.',
