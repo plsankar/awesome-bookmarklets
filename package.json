@@ -1,0 +1,19 @@
+{
+  "name": "awesome-bookmarklets",
+  "version": "1.0.0",
+  "description": "Awesome Bookmarklets, a curated collection of powerful and handy bookmarklets to enhance your browsing experience.",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "author": {
+    "name": "Lakshmi Sankar",
+    "url": "https://github.com/plsankar",
+    "email": "me@lakshmisankar.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.2.3"
+  }
+}
