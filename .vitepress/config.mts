@@ -8,14 +8,12 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: 'Home', link: '/' }],
-
     sidebar: [
       {
         text: 'Home',
         link: '/',
       },
     ],
-
-    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/plsankar/awesome-bookmarklets' }],
   },
 });

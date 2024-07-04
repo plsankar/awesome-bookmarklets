@@ -1,31 +1,47 @@
 # Awesome Bookmarklets
 
+Awesome Bookmarklets, a curated collection of powerful and handy bookmarklets to enhance your browsing experience. Bookmarklets are small JavaScript programs that can be stored as bookmarks in your web browser, providing quick and easy access to useful functionality without the need for extensions or add-ons.
+
 ## Domain
 
 ### Find Whois
+
+Easily find the WHOIS information of the current website you're visiting with a single click.
+
 ```js
 javascript:(function(){window.location.href=`https://www.whois.com/whois/${window.location.hostname}`})();
 ```
 
 ### SimilarWeb
+
+Quickly access SimilarWeb statistics for the current website to analyze its traffic and performance.
+
 ```js
 javascript:(function(){window.location.href=`https://www.similarweb.com/website/${window.location.hostname}/`})();
 ```
-## Misc
+
+## Web Development
 
 ### Google Fonts Select All Styles
+
+Quickly select all font styles on Google Fonts for easy downloading or comparison.
+
 ```js
 javascript:(function(){document.querySelectorAll('.selection-toggle-button').forEach(e => e.click())})();
 ```
 
-## Web Dev
-
 ### Scroll 100Vh
+
+Scroll down by 100% of the viewport height, making it easier to navigate through long pages.
+
 ```js
 javascript:(function(){window.scrollTo(0, window.innerHeight + document.documentElement.scrollTop)})();
 ```
 
 ### View Formatted JSON In Browser
+
+Automatically format JSON content in the browser for better readability and debugging.
+
 ```js
 javascript:(function(){var element=document.querySelector("pre"); var obj=JSON.parse(element.innerText); element.innerHTML=JSON.stringify(obj,undefined,2);})();
 ```
