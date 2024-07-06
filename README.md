@@ -4,6 +4,14 @@ Awesome Bookmarklets, a curated collection of powerful and handy bookmarklets to
 
 ## Usability
 
+### Download Youtube Video
+
+Open the current video on www.ssyoutube.com for download.
+
+```js
+javascript:(function(){vard=window.location.href;d=d.replace("youtube.com","ssyoutube.com");window.open(d,'_blank');})();
+```
+
 ### Remove All Videos
 
 Remove all video elements from the page.
