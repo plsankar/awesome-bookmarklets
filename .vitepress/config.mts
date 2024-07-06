@@ -46,7 +46,17 @@ export default defineConfig({
     },
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        nav: [{ text: "Home", link: "/" }],
+        nav: [
+            { text: "Home", link: "/" },
+            {
+                text: "Github",
+                link: "https://github.com/plsankar/awesome-bookmarklets",
+            },
+            {
+                text: "Contribute",
+                link: "https://github.com/plsankar/awesome-bookmarklets",
+            },
+        ],
         outline: "deep",
         sidebar: [
             {
