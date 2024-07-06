@@ -6,8 +6,7 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
-    "release": "git subtree push --prefix .vitepress/dist origin gh-pages",
-    "prerelease": "npm run docs:build"
+    "release": "git subtree push --prefix .vitepress/dist origin gh-pages"
   },
   "author": {
     "name": "Lakshmi Sankar",
