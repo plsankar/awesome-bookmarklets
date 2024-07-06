@@ -2,6 +2,56 @@
 
 Awesome Bookmarklets, a curated collection of powerful and handy bookmarklets to enhance your browsing experience. Bookmarklets are small JavaScript programs that can be stored as bookmarks in your web browser, providing quick and easy access to useful functionality without the need for extensions or add-ons.
 
+## Usability
+
+### Remove All Videos
+
+Remove all video elements from the page.
+
+```js
+javascript:(document.querySelectorAll('video').forEach(v => v.remove()))();
+```
+
+### Pause All Videos
+
+Pause all video elements from the page.
+
+```js
+javascript:(document.querySelectorAll('video').forEach(v => v.pause()))();
+```
+
+### Stop All Videos
+
+Stop all video elements from the page.
+
+```js
+javascript:(document.querySelectorAll('video').forEach(v => {v.pause();v.currentTime = 0}))();
+```
+
+### Remove All Audios
+
+Remove all audio elements from the page.
+
+```js
+javascript:(document.querySelectorAll('audio').forEach(v => v.remove()))();
+```
+
+### Pause All Audios
+
+Pause all audio elements from the page.
+
+```js
+javascript:(document.querySelectorAll('audio').forEach(v => v.pause()))();
+```
+
+### Stop All Audios
+
+Stop all audio elements from the page.
+
+```js
+javascript:(document.querySelectorAll('audio').forEach(v => {v.pause();v.currentTime = 0}))();
+```
+
 ## Domain
 
 ### Find Whois
