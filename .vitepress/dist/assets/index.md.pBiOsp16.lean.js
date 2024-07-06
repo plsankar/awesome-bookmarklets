@@ -1,0 +1,1 @@
+import{_ as i,c as s,o as a,a2 as e}from"./chunks/framework.zOZ8J_mi.js";const g=JSON.parse('{"title":"Awesome Bookmarklets","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),t={name:"index.md"},n=e("",19),h=[n];function l(o,k,r,p,d,c){return a(),s("div",null,h)}const y=i(t,[["render",l]]);export{g as __pageData,y as default};
